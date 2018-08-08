@@ -35,3 +35,8 @@ Myo.on("imu", data => {
     data.accelerometer.z,
   ]);
 });
+
+Myo.on("pose", pose_name => {
+  console.log(pose_name);
+  oscClient.send("/pose", pose_name);
+});
