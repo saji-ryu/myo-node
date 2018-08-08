@@ -1,0 +1,11 @@
+{
+  "name": "myo-node",
+  "version": "1.0.0",
+  "main": "sendOSC.js",
+  "license": "MIT",
+  "dependencies": {
+    "myo": "^3.0.0",
+    "node-osc": "^2.1.0",
+    "ws": "^6.0.0"
+  }
+}
